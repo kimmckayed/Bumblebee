@@ -1,0 +1,19 @@
+@if (session('status'))
+    <div class="alert alert-success">
+        {{ session('status') }}
+    </div>
+@endif
+@if (count($errors) > 0)
+    <div class="alert alert-danger">
+             <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+@if(isset($response) && $response['error'] === 1)
+    <div class="alert alert-danger">
+        {{ $response['message'] }}<br><br>
+    </div>
+@endif

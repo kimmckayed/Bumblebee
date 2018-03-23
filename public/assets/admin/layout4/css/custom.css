@@ -1,0 +1,86 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+.table th {
+	background-color: #F9F9F9;
+	border: 1px solid #e0e0e0;
+	/*color:#FF661B; 
+	border-color: #e0e0e0;*/
+}
+
+.table td {
+	background-color: #FFFFFF;
+	border: 1px solid #e0e0e0;
+}
+
+.table {
+	border: 1px solid #e0e0e0;
+}
+
+.vehicle-info {
+  	margin-left: 2px !important;
+}
+
+.applegreen-field {
+	width: 210px;
+}
+
+.applegreen-form {
+  /*background: transparent url("../../../../applegreen_images/lady-breakdown-service.jpg") no-repeat center center;
+	z-index: 2;
+  height: 752px;
+  background-size: cover;*/
+
+}
+
+.white-orange-logo {
+	background: url("../../../../applegreen_images/orange-white-logo-ii-u4334-a.png") no-repeat center center;
+	z-index: 60;
+}
+
+.pattern-overlay {
+  z-index: 46;
+  height: 752px;
+  border-color: #000000;
+  opacity: 0.56;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=56.00000000000001)";
+  filter: alpha(opacity=56.00000000000001);
+  background: #5E5E5E url("../../../../applegreen_images/pattern-overlay-u414-fr.png") repeat center center;
+  background-color: rgba(0,0,0,0.63);
+}
+
+.form-control {
+	width:50%;
+}
+
+form[method="POST"], .form {
+	width:80%;
+}
+
+.date-month {
+	width:15% !important;
+}
+
+.date-year {
+	width:20% !important;
+}
+
+.payment-errors {
+	color:#FF0000;
+}
